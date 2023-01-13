@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 
-contract LOYALTY is ERC20, ERC20Burnable, Ownable, AccessControl {
+contract DevToken is ERC20, ERC20Burnable, Ownable, AccessControl {
     // Create a new role identifier for the minter role
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
 
